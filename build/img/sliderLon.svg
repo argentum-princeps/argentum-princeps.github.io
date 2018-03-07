@@ -1,0 +1,20 @@
+<svg width="30" height="30" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 20</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-3320 1507)">
+<g id="Group 20">
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(3320 -1507)" fill="#D0021B"/>
+</g>
+<g id="noun_1195550_cc">
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(3328 -1497)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 30 15C 30 23.2843 23.2843 30 15 30C 6.71573 30 0 23.2843 0 15C 0 6.71573 6.71573 0 15 0C 23.2843 0 30 6.71573 30 15Z"/>
+<path id="path1_fill" d="M 3.58287 4.27389L -3.02045e-08 7.13694L 3.58287 10L 3.58287 7.76678L 13.2804 7.76678L 13.2804 6.50711L 3.58287 6.50711L 3.58287 4.27389ZM 10.4171 5.72611L 14 2.86306L 10.4171 2.74587e-08L 10.4171 2.23322L 0.719813 2.23322L 0.719813 3.49289L 10.4173 3.49289L 10.4171 5.72611Z"/>
+</defs>
+</svg>

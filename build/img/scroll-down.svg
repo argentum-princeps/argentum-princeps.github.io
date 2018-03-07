@@ -1,0 +1,24 @@
+<svg width="40" height="40" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-22237 3121)">
+<g id="Group">
+<g id="Circle">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(22237 -3121)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(22237 -3121)" fill="#000000" fill-opacity="0.25"/>
+</g>
+</g>
+<g id="Arrow">
+<use xlink:href="#path2_fill" transform="translate(22253 -3110)" fill="#333333"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 20 40C 31.0457 40 40 31.0457 40 20C 40 8.9543 31.0457 0 20 0C 8.9543 0 0 8.9543 0 20C 0 31.0457 8.9543 40 20 40Z"/>
+<path id="path1_stroke_2x" d="M 20 41C 31.598 41 41 31.598 41 20L 39 20C 39 30.4934 30.4934 39 20 39L 20 41ZM 41 20C 41 8.40202 31.598 -1 20 -1L 20 1C 30.4934 1 39 9.50659 39 20L 41 20ZM 20 -1C 8.40202 -1 -1 8.40202 -1 20L 1 20C 1 9.50659 9.50659 1 20 1L 20 -1ZM -1 20C -1 31.598 8.40202 41 20 41L 20 39C 9.50659 39 1 30.4934 1 20L -1 20Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 5 0L 3 0L 3 12L 0 12L 4 18.0005L 8 12L 5 12L 5 0Z"/>
+</defs>
+</svg>

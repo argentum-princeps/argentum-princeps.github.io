@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="http://www.facebook.com/2008/fbml" lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Lorem</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+</head>
+
+<body class=" ">
+<header class="header-all home" id="headerAll">
+    <div class="container">
+        <div class="header-all__block">
+            <a href="/" class="header-all__logo-link">
+            	<p class="logo-text">LOGO</p>
+                <!-- <img src="img/logo.png" class="header-all__logo" alt=""> -->
+            </a>
+            <ul class="header-all__navbar">
+                <a href="#about" class="header-all__link"><li >О нас</li></a>
+                <a href="#services" class="header-all__link"><li >Услуги</li></a>
+                <a href="#contactUs" class="header-all__link"><li >Контакты</li></a>
+            </ul>
+        </div>
+        <div class="header-all__home">
+            <h1 class="header-all__home-title">Lorem ipsum dolor</h1>
+            <p class="header-all__home-text">Praesent nec lorem ut ex sollicitudin finibus in non ex. Pellentesque pulvinar leo eu ultrices convallis.</p>
+            <button class="header-all__callback modal-btn"  data-remodal-target="modal">
+                Заказать звонок
+            <!--<img src="img/callback.svg"  alt="">-->
+            </button>
+        </div>
+        <a href="#about" class="header-all__scroll-down">
+            <img src="img/scroll-down.svg" alt="" class="header-all__scroll-icon"> Подробнее
+        </a>
+    </div>
+</header>
+
+<section class="modal remodal" data-remodal-id="modal">
+    <button class="modal__close"  data-remodal-action="close"  >
+        Закрыть
+        <img src="img/close-modal-wite.svg"class="modal__icon" alt="">
+    </button>
+    <div class="box ">
+        <div class="box__form">
+            <div class="box__text">Оставьте свои контакты, и мы свяжемся с вами в ближайшее время</div>
+            <input type="text" class="box__input name" id="nameModal" placeholder="Имя">
+            <input type="text" class="box__input tel" id="phoneModal" placeholder="Номер телефона">
+            <button class="box__btn" id="sendModal">Отправить заявку</button>
+        </div>
+        <div class="box__contact">
+            <div class="box__text box__text--color">Если у вас есть вопросы, вы можете связаться с нами по телефону</div>
+            <a href="tel:+38 (099) 999-99-99" class="box__text box__text--color box__text--weight">+38 (099) 999-99-99</a>
+            <div class="box__text box__text--color box__text--last">или отправить сообщение на электронную почту <a href="#" class="box__link">example@gmail.com</a></div>
+        </div>
+    </div>
+</section>
+<div class="full-page overflow">
+    <div class="home-page">
+        <section id='about' class="about-us">
+            <div class="container">
+                <div class="about-us__description">
+                    <h2 class="about-us__title">
+                    <span class="about-us__title--small">Lorem?</span>
+                        <br>
+                    ipsum dolor»
+                </h2>
+                <p class="about-us__text">
+                    Duis pulvinar justo a nulla facilisis, in interdum dui fermentum. Vestibulum felis odio, gravida ut leo ac, dignissim fermentum nunc.
+                    Donec finibus vitae nibh ut ullamcorper. Vestibulum vulputate nunc vitae urna vulputate, id commodo ipsum hendrerit. 
+                </p>
+                </div>
+                <ul class="about-us__list">
+                    <li class="about-us__list-item">
+                        <img src="img/about-us-staff.svg" alt="" class="about-us__icon">
+                        <p class="about-us__icon-title">Lorem ipsum dolor</p>
+                    </li>
+                    <li class="about-us__list-item">
+                        <img src="img/about-us-effective-work.svg" alt="" class="about-us__icon">
+                        <p class="about-us__icon-title">Lorem ipsum dolor</p>
+                    </li>
+                    <li class="about-us__list-item">
+                        <img src="img/about-us-relationships.svg" alt="" class="about-us__icon">
+                        <p class="about-us__icon-title">Lorem ipsum dolor</p>
+                    </li>
+                    <li class="about-us__list-item">
+                        <img src="img/about-us-care-of-customers.svg" alt="" class="about-us__icon">
+                        <p class="about-us__icon-title">Lorem ipsum dolor</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="services" id="services">
+            <div class="container">
+                <h2 class="services__title">Услуги</h2>
+                <p class="services__text">Nulla semper dolor sit amet nunc lobortis, vitae blandit erat volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed lobortis tincidunt risus vitae imperdiet.</p>
+                <div class="services__block">
+                    <div class="services__buttons">
+                        <button data-name='in' class="services__btn active">
+                            Lorem
+                        </button>
+                        <button data-name='out' class="services__btn">
+                            Ipsum
+                        </button>
+                        <button data-name='add' class="services__btn">
+                            Dolorvitae
+                        </button>
+                    </div>
+                    <div class="services__list in active">
+                        <a href="/sub-index.html" class="services__link">
+                            <div class="services__list-item">
+                                <img src="img/services-hotline.svg" alt="" class="services__icon">
+                                <h4 class="services__icon-title">Lorem ipsum</h4>
+                                <p class="services__icon-text">Nulla semper dolor sit amet nunc lobortis, vitae blandit</p>
+                            </div>
+                        </a>
+                        <a href="/sub-index.html" class="services__link">
+                            <div class="services__list-item">
+                                    <img src="img/services-callhandling.svg" alt="" class="services__icon">
+                                    <h4 class="services__icon-title">Lobortis<br> vitae blandit</h4>
+                                    <p class="services__icon-text">Sed lobortis tincidunt risus vitae</p>
+                            </div>
+                        </a>
+                        <a href="/sub-index.html" class="services__link">
+                            <div class="services__list-item">
+                                    <img src="img/services-inquiryservice.svg" alt="" class="services__icon">
+                                    <h4 class="services__icon-title">Tincidunt <br> malesuada fames</h4>
+                                    <p class="services__icon-text">Semper dolor sit amet nunc lobortis, vitae blandit erat.</p>
+                            </div>
+                        </a>
+                        <a href="/sub-index.html" class="services__link">
+                            <div class="services__list-item">
+                                <img src="img/services-outsourcing.svg" alt="" class="services__icon">
+                                <h4 class="services__icon-title">Blanditerat <br> lorem ipsum</h4>
+                                <p class="services__icon-text">Vestibulum vulputate nunc vitae</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="services__list out">
+                        <a href="/sub-index.html" class="services__link">
+                            <div class="services__list-item">
+                                <img src="img/tv.svg" alt="" class="services__icon">
+                                <h4 class="services__icon-title">Vestibulum</h4>
+                                <p class="services__icon-text">nunc vitae urna vulputate, id commodo ipsum hendrerit. </p>
+                            </div>
+                        </a>
+                        <a href="/sub-index.html" class="services__link">
+                            <div class="services__list-item">
+                                    <img src="img/test.svg" alt="" class="services__icon">
+                                    <h4 class="services__icon-title">Vulputate vitae</h4>
+                                    <p class="services__icon-text">urna vulputate, id commodo ipsum hendrerit. Vestibulum vulputate. </p>
+                            </div>
+                        </a>
+                        <a href="/sub-index.html" class="services__link">
+                            <div class="services__list-item">
+                                    <img src="img/presentation.svg" alt="" class="services__icon">
+                                    <h4 class="services__icon-title">Donec imprediet massa</h4>
+                                    <p class="services__icon-text">Duis vulputate semper dictum. Donec vel.</p>
+                            </div>
+                        </a>
+                        <a href="/sub-index.html" class="services__link">
+                            <div class="services__list-item">
+                                <img src="img/db.svg" alt="" class="services__icon">
+                                <h4 class="services__icon-title">ellentesque at elementum<br>urna vulputate</h4>
+                                <p class="services__icon-text">Donec imperdiet ultrices massa, ut venenatis ex vulputate ac. </p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="services__list add">
+                        <a href="/sub-index.html" class="services__link">
+                            <div class="services__list-item">
+                                <img src="img/atc.svg" alt="" class="services__icon">
+                                <h4 class="services__icon-title">Donec venetnatis veate</h4>
+                                <p class="services__icon-text">Fusce placerat tincidunt aliquam. Ut finibus sem eu nibh luctus, placerat.</p>
+                            </div>
+                        </a>
+                        <a href="/sub-index.html" class="services__link">
+                            <div class="services__list-item">
+                                    <img src="img/num.svg" alt="" class="services__icon">
+                                    <h4 class="services__icon-title">Lorem ipsum</h4>
+                                    <p class="services__icon-text">ПNulla sit amet urna et justo pretium mattis. Aenean condimentum finibus sem eu.</p>
+                            </div>
+                        </a>
+                        <a href="/sub-index.html" class="services__link">
+                            <div class="services__list-item">
+                                    <img src="img/crm.svg" alt="" class="services__icon">
+                                    <h4 class="services__icon-title">Sit amet</h4>
+                                    <p class="services__icon-text">Aenean cursus dapibus euismod. Cras faucibus risus eu eros ullamcorper pellentesque.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+        <section class="deal">
+            <div class="container">
+                <div class="deal__block">
+                    <div class="deal__descr">
+                        <h2 class="deal__descr-title">
+                            Donec auctor lectus a placerat feugiat:
+                        </h2>
+                        <div class="deal__descr-text">
+                            <p>1) Мonec imperdiet ultrices massa, ut.</p>
+                            <p>2) Cras faucibus risus eu eros ullamcorper.</p>
+                            <p>3) Aenean cursus dapibus euismod.</p>
+                            <p>4) Fusce placerat tincidunt.</p>
+                            <p>5) Donec vel mauris quis orci.</p>
+                            <p>6) Mauris quis orci hendrerit porta ut a tellus.</p>
+                        </div>
+                    </div>
+                    <div class="deal__call">
+                        <h4 class="deal__call-title">
+                            Заинтересовали?
+                        </h4>
+                        <a href="tel:+38 (099) 999-99-99" class="deal__call-number">(099) 999-99-99</a>
+                        <!--<img src="img/telephone.png" alt="" class="deal__call-img">-->
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+        <section class="contact-us" id="contactUs">
+            <div class="container">
+                <h2 class="our-contacts__title">Lorem ipsum</h2>
+                <div class="our-contacts">
+                    <div class="our-contacts__email our-contacts__box">
+                        <img src="img/email.svg" alt="" class="our-contacts__icon">
+                        <div class='our-contacts__block'>
+                            <h6 class="our-contacts__icon-title">Email</h6>
+                            <a  href="mailto:example@gmail.com" class="our-contacts__link">
+                                example@gmail.com</a> <br>
+                            <a  href="mailto:example@mmm.com.ua" class="our-contacts__link">example@mmm.com.ua</a>
+                        </div>
+                    </div>
+                    <div class="our-contacts__phone our-contacts__box">
+                        <img src="img/phone.svg" alt="" class="our-contacts__icon">
+                        <div class='our-contacts__block'>
+                            <h6 class="our-contacts__icon-title">Телефон</h6>
+                            <a  href="tel:+380 (99) 999-99-99" class="our-contacts__link">+380 (99) 999-99-99</a>
+                            <br>
+                            <a  href="tel:+380 (99) 999-99-99" class="our-contacts__link">+380 (99) 999-99-99</a>
+                        </div>
+                    </div>
+                    <div class="our-contacts__place our-contacts__box">
+                        <img src="img/place.svg" alt="" class="our-contacts__icon">
+                        <div class='our-contacts__block'>
+                            <h6 class="our-contacts__icon-title">Loremipsumdolor</h6>
+                            <a href="#" class="our-contacts__link our-contacts__link--location">Country, City,<br> str. Name of street, №</a>
+                        </div>
+                    </div>
+                </div>
+             <div class="contact-us__block">
+                <div id="map" class="contact-us__map"></div>
+                    <div class="contact-us__form">
+                        <div class="form__title">Morbi vitae nisi arcu. In et purus at nulla mattis maximus</div>
+                        <input type="text" class="form__input name" id="contactName" placeholder="Имя">
+                        <input type="text" class="form__input email" id="contactEmail" placeholder="Email">
+                        <input type="text" class="form__input tel" id="contactPhone"  placeholder="Номер телефона">
+                        <button class="form__btn" id="sendContact">Отправить заявку</button>
+                    </div>
+                </div>
+            </div>
+        
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__block">
+                    <a href="#headerAll" class="footer__logo-link">
+                    	<p class="logo-text">LOGO</p>
+                        <!-- <img src="img/logo.png" class="footer__logo" alt=""> -->
+                    </a>
+                    <ul class="footer__navbar">
+                        <a href="#" class="footer__link"><li >О нас</li></a>
+                        <a href="#services" class="footer__link"><li >Услуги</li></a>
+                        <a href="#contactUs" class="footer__link"><li >Контакты</li></a>
+                    </ul>
+                    <div class="footer__sm-links">
+                        <a href="#" class="footer__sm-link"><img src="img/facebook.svg" alt="" class="sm-icon"></a>
+                        <a href="#" class="footer__sm-link"><img src="img/linkedin.svg" alt="" class="sm-icon"></a>
+                        <a href="#" class="footer__sm-link"><img src="img/viber.svg" alt="" class="sm-icon"></a>
+                        <a href="#" class="footer__sm-link"><img src="img/telegram.svg" alt="" class="sm-icon"></a>
+                    </div>
+                </div>
+                    <div class="footer__license">
+                        <div class="footer__text--left">
+                            *Donec imperdiet ultrices massa, ut venenatis ex vulputate ac. Pellentesque at elementum arcu. <br>
+                            Nulla nec ipsum sit amet sem dapibus eleifend. Phasellus ullamcorper ligulaю.<br>
+                            Lorem ipsum dolor.<br>
+                            magna, quis venenatis libero auctor cursus<br>
+                            Donec auctor lectus a placerat feugiat. Aenean cursus dapibus euismod. Cras.
+                        </div>
+                        <div class="footer__text--right">
+                            Copyright © 2018 All rights reserved.
+                            <!-- <br> -->
+                            <!-- Дизайн и разработка <a href="#" class="footer__company"></a> -->
+                            
+                        </div>
+                    </div>
+            </div>
+        </footer>
+    </div>
+    <div class="application">
+        <!-- //= html/information.html -->
+        <!-- //= html/mark-services.html -->
+        <!-- //= html/basic.html -->
+        <!-- //= html/additional.html -->
+        <!-- //= html/footer.html -->
+    </div>
+</div>
+
+
+
+
+<!--jq-->
+<script
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+
+<!--================================
+=            INPUT MASK            =
+=================================-->
+
+<script src='js/imask.min.js'></script>
+
+<!--====  End of INPUT MASK  ====-->
+
+
+<!--================================
+=            ANIMATIONS            =
+=================================-->
+
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script>
+	// INFO
+	// https://github.com/michalsnik/aos
+
+
+	// AOS.init({
+ //      duration: 400,
+ //      delay: 200,
+ //    });
+</script>
+
+<!--====  End of ANIMATIONS  ====-->
+
+
+<script>
+
+	$('.services__btn').click(function () {
+		$('.services__btn').removeClass('active');
+		$('.services__list').removeClass('active');
+		$(this).addClass('active');
+		var name = $(this).attr('data-name');
+		$('.services__list.'+name).addClass('active');
+	})
+	
+</script>
+
+<!--============================
+=            SLIDER            =
+=============================-->
+
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/css/swiper.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.2/js/swiper.min.js"></script> -->
+
+<script>
+	// INFO
+	// http://idangero.us/swiper/api/
+
+
+</script>
+
+<!--====  End of SLIDER  ====-->
+
+<!--================================
+=            Slider Pips           =
+=================================-->
+
+<script src='js/rangeslider.min.js'></script>
+
+
+<!--================================
+=            remodal           =
+=================================-->
+
+<script src='js/remodal.min.js'></script>
+
+
+<!--карта-->
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCkaN-ZoynPdowTpCs6WeHWGSkrFWg8XMU&callback=initMap">
+</script>
+
+<!--====  End of SENDING FORM  ====-->
+
+<script src="js/main.js"></script>
+</body>
+
+</html>

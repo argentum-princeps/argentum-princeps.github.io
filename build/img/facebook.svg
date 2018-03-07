@@ -1,0 +1,16 @@
+<svg width="20" height="20" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>facebook-logo</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-23281 732)">
+<g id="facebook-logo">
+<g id="Group">
+<g id="Facebook  x28 alt x29">
+<use xlink:href="#path0_fill" transform="translate(23281 -732)"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 20 3.33356C 20 1.582 18.4187 0 16.6667 0L 3.33333 0C 1.58133 0 0 1.582 0 3.33356L 0 16.6664C 0 18.418 1.58133 20 3.33356 20L 10 20L 10 12.4444L 7.55556 12.4444L 7.55556 9.11111L 10 9.11111L 10 7.81244C 10 5.57267 11.6818 3.55556 13.75 3.55556L 16.4444 3.55556L 16.4444 6.88889L 13.75 6.88889C 13.4551 6.88889 13.1111 7.24689 13.1111 7.78311L 13.1111 9.11111L 16.4444 9.11111L 16.4444 12.4444L 13.1111 12.4444L 13.1111 20L 16.6667 20C 18.4187 20 20 18.418 20 16.6664L 20 3.33356Z"/>
+</defs>
+</svg>
